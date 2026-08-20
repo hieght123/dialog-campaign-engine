@@ -40,7 +40,7 @@ Once you have extracted the concepts (either from the user's prompt or the silen
 ### Step 4: Term-Behind & Course Correction (名词后置与纠偏)
 - Evaluate their answer. 
 - **If correct**: Introduce the professional jargon NOW and cite the timestamp. *"完全正确，你刚才的做法在金融里叫「微笑曲线」（详见讲义 15:30处）..."*
-- **If wrong**: Point out the flaw, introduce the missing concept, and tell them exactly where to review if they are completely stuck. *"你忽略了对手的算计。翻开原视频/讲义的 [35:20] 秒处，看看教授是怎么说的。带着这个前提，你重新选一次..."*
+- **If wrong**: Do NOT send the user back to the video first. Explain the flaw and the missing concept directly in chat, using plain language and a concrete example. Then pose the decision again with the corrected premise. Only after the concept is clear may you optionally add the source timestamp as a follow-up resource: *"你忽略了对手的算计。这里的核心是：你选的方案在对手也理性时，会被他的反制策略压得没有优势。换成更直白的例子……现在带着这个前提，你重新选一次。想对照原视频，可跳到 [35:20]。"*
 
 ## 3. End of Session (抽象复盘与归档)
 
